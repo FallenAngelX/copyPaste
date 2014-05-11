@@ -1,0 +1,6 @@
+// clear contents of text boxes or labels
+
+nameTextbox.Text = "";
+messageLabel.Text = "";
+dataTextBox.Clear();
+messageLabel.Text = string.Empty;

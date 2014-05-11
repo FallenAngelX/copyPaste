@@ -1,6 +1,6 @@
 /*  
  *  Developer:
- *  Infinity_Visual_Studios
+ *  Infinity_Visual_Studios [IVS]
  *  CopyRight (C) 2014
  *  Date:
  * 

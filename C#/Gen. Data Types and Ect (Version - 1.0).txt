@@ -1,0 +1,25 @@
+C# Data Type ::::: .NET CLR Data Type ::::  Use For ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: Storage in Bytes 
+1. bool               |      Boolean                      |     true or false values            |                                                   2
+
+2. byte               |      Byte                             |      0 to 255, binary data          |                                                  1
+
+3. char               |      Char                            |   Single UniCode character    |                                                  2
+
+4. DateTime      |    DateTime               | 1/1/0001 00:00:00 to 12/31/9999 23:59:59  |                                     8
+
+5. decimal         |   Decimal               | decimal fractions, such as dollars ect(precision of 28 digits)  |     16
+
+6. float              |  Single             | single precesion floating point numbers with 6 digits of accuracy |    4
+
+7. double     | Double              | double precesion floating number w 14 digits of accuracy          |           8
+
+8. short        | Int16                 | small integer range= -32,768 to +32,767                                           |           2
+
+9. int            | Int32             | whole number range = -2,147,483,648 to +2,147,483,647                    |           4
+
+10. long       |Int64             | larger whole numbers                                                                              |          8
+
+11. string    | String          | varies on size |                                                                                           |       VARIES
+
+12. object   | Object          | Any Type of data                                                                                        |          4
+
