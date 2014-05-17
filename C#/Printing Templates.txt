@@ -2,14 +2,27 @@
 
         private void printDocument_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            // General Variables  
+            // General Variables for Printing
             Font printFont = new Font("Arial", 10);
             Font headingFont = new Font("Arial", 14, FontStyle.Bold);
+            string headingString = "????????";   // Change the "?????'s" into what u want the headingString to be.
+
+            //General Variables for position of printing
             // position on our paper // Measured in pixels ** Needs to be floats
             float verticalPrintPositionFloat = e.MarginBounds.Top;
             float horizontalPrintPositionFloat = e.MarginBounds.Left;
             float lineHeightFloat = printFont.GetHeight();
+		/*
+            //------> everything below here is optional
+            // print Heading
+            e.Graphics.DrawString(headingString + DateTime.Now.ToShortDateString(),
+            headingFont, Brushes.Black, horizontalPrintPositionFloat, verticalPrintPositionFloat);
+
+            //increment line height this is how we print multi lines
+            verticalPrintPositionFloat += (2 * lineHeightFloat);
+		*/
         }
+
 //----------> end of beginner 
 
 //-------------------------------------------------------------//
