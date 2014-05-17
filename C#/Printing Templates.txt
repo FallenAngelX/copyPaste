@@ -1,0 +1,15 @@
+//-------->   Beginner Template
+
+        private void printDocument_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            // General Variables  
+            Font printFont = new Font("Arial", 10);
+            Font headingFont = new Font("Arial", 14, FontStyle.Bold);
+            // position on our paper // Measured in pixels ** Needs to be floats
+            float verticalPrintPositionFloat = e.MarginBounds.Top;
+            float horizontalPrintPositionFloat = e.MarginBounds.Left;
+            float lineHeightFloat = printFont.GetHeight();
+        }
+//----------> end of beginner 
+
+//-------------------------------------------------------------//
