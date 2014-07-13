@@ -1,7 +1,7 @@
 /*  
  *  Project Name:
  *  Developer:
- *  Infinity_Visual_Studios [IVS]
+ *  Infinity Global Technologies - IGT
  *  CopyRight (C) 2014
  *  Date:
  *
